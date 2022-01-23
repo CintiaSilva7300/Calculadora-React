@@ -1,0 +1,16 @@
+* {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: rgb(10, 10, 10);
+  background: linear-gradient(to right, rgb(148, 142, 153), rgb(46, 20, 55));;
+}
+

@@ -1,0 +1,34 @@
+:root {
+    --bg-button: #d7b5eb;
+    --border-button: solid 2px #888;
+}
+
+.button {
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    /* border: none; aqui tira a bordar dos button */
+    border-right: var(--bg-button);
+    /* border-bottom: var(--border-button); */
+    outline: none
+}
+
+.button:active{
+    background-color: #ccc;
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: rgb(172, 115, 169);
+    color: rgb(255, 255, 255);
+}
+
+.button.operation:active {
+    background-color: rgb(211, 100, 36);
+}
